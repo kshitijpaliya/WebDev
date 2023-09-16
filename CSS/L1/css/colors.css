@@ -1,0 +1,15 @@
+body {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color:yellow;
+    color: red;
+}
+
+p {
+    color: black;  
+}
+
+/* rgb can also be used, rgba gives 4th variable ( , , , ) ranging from 0-1 for transparancy */
+
+/* coolors.co is a color checking tool helps to determine how color will look */

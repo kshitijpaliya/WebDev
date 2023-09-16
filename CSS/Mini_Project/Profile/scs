@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/75fe46b958.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <!-- Logo -->
+            <div class="logo"><a href="#">LOGO</a></div>
+
+            <!-- MENU -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <!-- Search Button -->
+            <div class="search-button">
+                <input type="text" placeholder="Search">
+                <button>Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+
+        <!-- LEFT -->
+        <div class="left-hero-section">
+            <h1>Hello, I am a<span>Web Developer</span></h1>
+            <p>
+                I am an aspiring<span>Full Stack Web Developer,</span> <br> who is currently working as a<span>Freelancer</span>for <br><span>National and International Clients.</span>
+            </p>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="right-hero-section">
+            <img src="./Assets/avtar.png" alt="Profile Pic" height="250px"> <br>
+            <div class="chat-button">
+                <button>Chat With Me</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Copyright 2022 LOGO. All Rights Reserved.
+        </p>
+        <ul>
+            <li><i class="fa-brands fa-github"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+        </ul>
+    </footer>
+
+</body>
+</html>

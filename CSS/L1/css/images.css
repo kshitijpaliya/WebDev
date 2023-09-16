@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    background-color: brown;
+    /* background-image: url(../Images/bubbles.png), linear-gradient(to left, steelblue, black);
+    background-repeat: repeat-y, no-repeat;
+    background-position: right center; */
+
+
+}
+
+/* Utility Classes  */
+
+/* .nowrap {
+    white-space: nowrap;
+}
+
+.offscreen {
+    position: absolute;
+    left: -1000px;
+} */
+
+/* Utility Classes Ends  */
+
+/* .hero {
+    border-bottom: 2px solid black;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    background-color: peru;
+    background-image: url(../Images/map-2176x1451.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.h1 {
+    font-size: 500%;
+    color:blanchedalmond;
+    text-shadow: 2px 3px 5px black;
+
+}
+
+.profile-pic-figure {
+    width: 35%;
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double brown;
+    border-radius: 50%;
+} */
+
+/* .example {
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.example img{
+    width: 25%;
+    height: auto;
+    display: block;
+} */
+
+.clip {
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image: url(../Images/scenic-2200x1331.png);
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

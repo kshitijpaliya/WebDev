@@ -1,0 +1,20 @@
+body {
+    font-size: 1.5rem;
+    padding: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;   
+    /* not allowed is also there */
+    color: blue;
+}
+
+/* a:visited {
+    color: purple;
+} */
+
+a:hover{
+    color: red;
+}

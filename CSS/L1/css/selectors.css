@@ -1,0 +1,38 @@
+/* * {
+where * before { signifies universal selector     
+} */
+
+body {
+    font-size: 22px;
+}
+
+p {
+    color: blue;
+} 
+
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.grey {
+    color: red;
+}
+
+/* .grey is used for class where (.) is used before the class name */
+
+#second {
+    font-style: italic;
+}
+
+/* #second is used for id where (#) is used before id name */
+
+h1, h2 {
+    color: brown;
+}
+
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
