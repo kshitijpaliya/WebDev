@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Forms </h1>
+
+    <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Info Bhar</legend>
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" placeholder="Nam Dal Bsdk" autocomplete="on" required>
+        
+ 
+        <!-- form -> label & input  -->
+
+        <!-- form -> label -> select -> option  -->
+
+        <p>
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Nam Dal Bsdk" autocomplete="on" required>
+        </p>
+        
+        <p>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Dal Na Bsdk" required>
+        </p>
+        <!-- pattern for numbers; type=tel for telephone -->
+        <!-- max="" min="" steps="" gives arrow for changing -->
+
+        <p>
+            <label for="coffee">Coffee</label>
+            <select name="coffee" id="coffee">
+                <optgroup label="Coffees">
+                <option value="regular coffee">Regular Coffee</option>
+                <option value="iced coffee">Iced Coffee</option>
+            </optgroup>
+
+            <optgroup label="Drinks">
+                <option value="latte">Latte</option>
+                <option value="capachina">Cappuachina</option>
+            </optgroup>
+
+            </select>
+        </p> 
+    
+    </fieldset>
+
+    <br>
+
+    <!-- Radio  -->
+    <fieldset>
+        <legend>What is your favourite food?</legend>
+        
+        <p>
+        <input type="radio" name="food" id="maggiee" value="maggiee">
+        <label for="maggiee">Maggiee</label>
+        </p>
+        
+        <p>
+        <input type="radio" name="food" id="pizza" value="pizza">
+        <label for="pizza">Pizza</label>        
+        </p>
+        
+        <p>
+        <input type="radio" name="food" id="panipuri" value="panipuri">
+        <label for="panipuri">PaniPuri</label>
+        </p>
+
+    </fieldset>
+
+    <br>
+
+    <!-- Checkbox  -->
+    <fieldset>
+        <legend>Who is your favourite cricketer?</legend>
+
+        <p>
+            <input type="checkbox" name="player" id="virat">
+            <label for="virat">Virat Kohli</label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="player" id="dhoni">
+            <label for="dhoni">M S Dhoni</label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="player" id="rohit">
+            <label for="rohit">Rohit Sharma</label>
+        </p>
+        
+    </fieldset>
+
+    <br>
+
+    <!-- Textarea  -->
+    <fieldset>
+        <legend>Send Me A Note</legend>
+        <label for="message">Your Message:</label>
+
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+    </fieldset>
+    <br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </form>
+
+
+</body>
+</html>
